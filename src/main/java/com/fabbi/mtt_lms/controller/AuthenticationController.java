@@ -1,6 +1,6 @@
 /*
-								* (C) 2023 - $today.date - $today.month - $today
-								*/
+ * MTT 2023
+*/
 package com.fabbi.mtt_lms.controller;
 
 import com.fabbi.mtt_lms.dto.AuthenticationRequest;
@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/auth")
 @RequiredArgsConstructor
 public class AuthenticationController {
+
     private final AuthenticationService service;
 
     @PostMapping("/register")

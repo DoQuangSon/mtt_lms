@@ -1,6 +1,6 @@
 /*
-								* (C) 2023 - $today.date - $today.month - $today
-								*/
+ * MTT 2023
+*/
 package com.fabbi.mtt_lms.dto;
 
 import lombok.Builder;
