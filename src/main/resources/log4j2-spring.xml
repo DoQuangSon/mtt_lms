@@ -30,8 +30,8 @@
             <AppenderRef ref="RollingFile" />
         </Root>
 
-        <!-- LOG "com.baeldung*" at TRACE level -->
-        <Logger name="com.baeldung" level="trace"></Logger>
+        <!-- LOG "com.fabbi.mtt_lms*" at TRACE level -->
+        <Logger name="com.fabbi.mtt_lms" level="trace"></Logger>
     </Loggers>
 
 </Configuration>
